@@ -35,9 +35,7 @@ def tracking_points(img, point_list, h_range, v_range):
     osa.osascript("set volume output volume " + str(vol)) # Super slow; python waits for the script to execute which causes a lot of frame loss
     """
 
-
-if __name__ == "__main__":
-
+def main():
     cap = cv2.VideoCapture(0)
     time.sleep(2)
 
@@ -73,3 +71,5 @@ if __name__ == "__main__":
         else:
             print("Problem Reading")
 
+if __name__ == "__main__":
+    main()
