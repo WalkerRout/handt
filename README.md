@@ -1,4 +1,4 @@
-#Hand Tracker
+# Hand Tracker
 ## Using Python and OpenCV
 
 ### Description
